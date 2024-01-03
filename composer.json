@@ -1,0 +1,19 @@
+{
+    "name": "emmanuelc/marvel-api",
+    "description": "Fetch Marvel API to get information about heroes.",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Emmanuelc\\MarvelApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "emmanuelc",
+            "email": "camuschinox@gmail.com"
+        }
+    ]
+}
